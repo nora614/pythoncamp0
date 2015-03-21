@@ -1,11 +1,13 @@
 # README
 
-## readme是什么
+> 这是一本写给六个月前的自己的编程书。Have fun~
 
-readme告诉别人如何使用你的软件，是项目的门面，一般包括如何安装，如何使用等等
-
-## fork这个项目
-
-现在，把这个项目fork到你的库里，点击右上角的fork
-
-fork完毕。我来测试一下双推是否成功
+## 0 前言
+## 1 装备准备
+### 1.1 [使用markdown写作](https://github.com/nora614/pythoncamp0/blob/master/howmd.md)
+### 1.2 使用maillist提问
+### 1.3 [如何使用github](https://github.com/nora614/pythoncamp0/blob/master/githubbasicset.md)
+#### 1.3.1 [基本操作](https://github.com/nora614/pythoncamp0/blob/master/howgithub1.md)
+#### 1.3.2 [本地与远程](https://github.com/nora614/pythoncamp0/blob/master/howtopush.md)
+#### 1.3.3 [github的分支](https://github.com/nora614/pythoncamp0/blob/master/howbranch.md)
+### 1.4 用gitbook写书
