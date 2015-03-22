@@ -5,7 +5,7 @@
 ### 0 缘起
 ### 1 装备准备
 #### 1.1 [使用markdown写作](https://github.com/nora614/pythoncamp0/blob/master/howmd.md)
-#### 1.2 [使用maillist提问](file:///Users/nora/Documents/pythoncamp0/source/part1/howmailist.md)
+#### 1.2 [使用maillist提问](./Users/nora/Documents/pythoncamp0/source/part1/howmailist.md)
 #### 1.3 [如何使用github](https://github.com/nora614/pythoncamp0/blob/master/githubbasicset.md)
 ##### 1.3.1 [基本操作](https://github.com/nora614/pythoncamp0/blob/master/howgithub1.md)
 ##### 1.3.2 [本地与远程](https://github.com/nora614/pythoncamp0/blob/master/howtopush.md)
