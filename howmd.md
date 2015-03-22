@@ -11,30 +11,31 @@ markdown是一种写作语言。通过学习少量的特定语言，在写作的
 
 ## Basic Grammer
 ### 分级
-![](https://github.com/nora614/pythoncamp0/blob/master/title.png?raw=true)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/title.png?raw=true)
 
 请注意在符号和文字中间空格，有些环境下不空格没有效果。
 
 ### 列表
-![](https://github.com/nora614/pythoncamp0/blob/master/list.png?raw=true)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/list.png?raw=true)
 
 ### 引用
 > 这样的效果就是引用
 
-![](https://github.com/nora614/pythoncamp0/blob/master/quote.png?raw=true)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/quote.png?raw=true)
 
 ### 加粗，倾斜
-![](https://github.com/nora614/pythoncamp0/blob/master/style.png?raw=true)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/style.png?raw=true)
 
 ### 图片，链接
-![](https://github.com/nora614/pythoncamp0/blob/master/picture.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/picture.png?raw=true)
+
 ### 插入代码框
 
 像这样`git status`,`git init`的代码框，是这样的产生的：
-![](https://github.com/nora614/pythoncamp0/blob/master/log.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/log.png?raw=true)
 
 ### 插入分割线
-![](https://github.com/nora614/pythoncamp0/blob/master/line.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/line.png?raw=true)
 
 ## Common Question
 
