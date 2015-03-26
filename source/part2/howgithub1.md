@@ -58,4 +58,4 @@
 
 ### 如何打开终端
 - Mac: finder——应用程序——实用工具——终端
-- Ubuntu: shift+alt+t
+- Ubuntu: shift+alt+ts
