@@ -37,4 +37,14 @@
  3.26上午十点半。
  我觉得这个游戏的目标是，让玩家感觉到坐在他对面的是一个人和他一起玩。
  
+ ### 成果：
+ [codeskulpter](http://www.codeskulptor.org/#user39_PFbfEy0tF7_0.py)
  
+ [github](https://github.com/nora614/omooc.py/blob/master/src/iippy-2.py)
+ 
+ - 增加了告诉使用者你猜的是什么数字的提示信息
+ - 增加了假如使用者猜测超出了range的提示信息
+ 
+ ### 下一次操作的目标：
+ 假如使用者猜测range100超过了7次，或者range1000超过了10次，提醒一下正确方法。
+ 可能要用到循环和计数了吧。。。嗯先去吃饭
