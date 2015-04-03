@@ -5,11 +5,11 @@
 
 ## 第一次 搭框架
 首先想到的是，三种形状要有三个按钮，并且对应的三种函数：
-![](/Users/nora/Documents/pythoncamp0/pic/frame.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/frame.png?raw=true)
 
 ## 第二次
 周二晚上，颜色不能自己设定，不能画三角形和正方形，当时的代码是这样子的：
-![](/Users/nora/Documents/pythoncamp0/pic/tuepic.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/tuepic.png?raw=true)
 颜色这一块怎么都弄不对，所以当时是注释的。
 
 
@@ -36,7 +36,7 @@
 现在我的程序可以运行了，但是有一个问题，我从中午一点弄到三点还没有弄好，就是我的程序如果换了形状，所有的形状会一起换。如果换了颜色，所有的颜色会一起换。
 
 在有思路的折腾之前，还试过这样一种方法，注释部分：
-![](/Users/nora/Documents/pythoncamp0/pic/click.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/click.png?raw=true)
 #### solution 1
 我想可能形状改变的原因是因为我把三种形状放到了一个list里面，那么如果我不想同时变化，那么我就应该把这些东西放到三个不同的列表里面。
 
@@ -47,7 +47,7 @@ failed
 #### solution 2
 最终我发现，问题出现在for……in这个遍历语句上，因为这个语句会为列表中每一个成员更换性质，所以就不对了。而且我还使用到了global，一下子把颜色的值给每个，出现了改动一次会把所有的颜色和形状都改了。不知道这两个是哪一个导致会全部变化。
 
-![](/Users/nora/Documents/pythoncamp0/pic/ball.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/ball.png?raw=true)
 这是我判定出错的地方
 
 我回看了一下list这一个部分的内容，发现了同一节课程中的两个例子很有启发，一个是点击原来的会变成绿色的这个，我也想效仿这个案例，给我的图案赋值为三个元素（x，y，颜色），但是不成功。后来我参考了点一下小球会消失的这个案例，想要套用他判断语句，并且修改一下自己的撤销按钮（还是点一下就会消失这样的设定比较人性化）
@@ -59,11 +59,11 @@ failed
 #### 程序结构问题：
 蝈蝈的教程出来了，对着蝈蝈的教程修改了一下自己已经写好的部分。
 
-![](/Users/nora/Documents/pythoncamp0/pic/1.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/1.png?raw=true)
 
  加上分割线感觉旁边的按钮好看多了。
  
-![](/Users/nora/Documents/pythoncamp0/pic/2.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/2.png?raw=true)
 这一段是修改的最多的地方。首先，我把给点赋值的地方从`draw`修改到了`canvas`，这样看起来好看多了！不那么冗长。其次，既然我在`click`里面就把`draw_point`的问题解决了，那么画正方形和画三角形的函数就可以合并啦！这一段更加精干了。
 
 #### pass的使用
@@ -81,13 +81,13 @@ failed
 
 ### 问题解决
 原来的问题是：当我要切换形状时，报错，而且从圆切换到正方形，三角形和反向的切换报错不一样，前者是说：
-![](/Users/nora/Documents/pythoncamp0/pic/3.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/3.png?raw=true)
 后者是说：
-![](/Users/nora/Documents/pythoncamp0/pic/4.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/4.png?raw=true)
 
 我又去看蝈蝈写的这一段的代码，发现：我们两个有一处不一样，然后我就修改成这样：
 
-![](/Users/nora/Documents/pythoncamp0/pic/5.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/5.png?raw=true)
 **不太理解为什么，因为就改了一个地方。**
 
 ## 周五
@@ -115,7 +115,7 @@ failed
 
 第二个问题很好解决，我加了一个停止回放的按钮。并且通过这个开始，停止的按钮发现我的问题就是出现在timer这个回路当中。
 
-![](/Users/nora/Documents/pythoncamp0/pic/7.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/7.png?raw=true)
 尝试修改了一下这一段代码，发现还是不对。
 
 #### 继续做上面的这个问题
@@ -131,7 +131,7 @@ failed
 我先去docs里面，用print,output,files,document,type,这些关键词做了搜索，没有（至少是我没有判断出来这不是）
 
 然后就去Google：
-![](/Users/nora/Documents/pythoncamp0/pic/6.png)
+![](https://github.com/nora614/pythoncamp0/blob/master/pic/6.png?raw=true)
 
 看了搜出来的前几个方法，发现要用到write，但是他们都是在本地运行的可以yongwrite，需要在本地才能 output。
 
