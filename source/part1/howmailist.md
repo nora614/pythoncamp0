@@ -1,4 +1,4 @@
-#怎么使用maillist
+ #怎么使用maillist
 > 这一篇谈不上教程，只能算是一份使用心得。
 
 ## maillist是什么
